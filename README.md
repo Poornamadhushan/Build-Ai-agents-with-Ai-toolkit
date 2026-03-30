@@ -1,6 +1,6 @@
 # Build AI Agents with AI Toolkit
 
-![AI Toolkit](./assets/aitk.png)
+![AI Toolkit](/aitk.png)
 
 Livestream starting soon! **Click below to register.**
 
