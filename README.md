@@ -22,24 +22,6 @@ The **AI Toolkit** is a powerful VS Code extension that streamlines generative A
 - **Evaluation**: Measure agent performance with built-in metrics
 - **Code Export**: Export agent code for integration into applications
 
-> [!NOTE]
->
-> **Hackathon Award Category: Agent Architecture Award**
->
-> As part of the Build-a-thon Hack!, we have a special award category that will recognize the best AI agents with innovative and well-architected designs.
->
-> Consider building:
->
-> - Agents that solve complex problems with multiple steps of reasoning
-> - Agents that integrate with custom MCP servers to access specialized tools or data
-> - Agents with sophisticated evaluation techniques that push performance boundaries
->
-> Highlight in your submission how you:
->
-> - Demonstrate innovative agent design patterns
-> - Leverage MCP servers for specialized tool integration
-> - Showcase evaluation methods that validate agent performance
-
 ### Install the AI Toolkit Extension
 
 1. Open VS Code
