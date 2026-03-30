@@ -4,7 +4,7 @@
 
 Livestream starting soon! **Click below to register.**
 
-[![Reactor Livestream](./assets/poster-quest4.png)](https://developer.microsoft.com/en-us/reactor/events/26776/)
+[![Reactor Livestream](./poster-quest4.png)](https://developer.microsoft.com/en-us/reactor/events/26776/)
 
 ## Overview
 
@@ -60,7 +60,7 @@ The Model Catalog is your gateway to discovering AI models from multiple provide
    - **Feature**: Text Attachment, Image Attachment, Web Search, Structured Outputs
    - **Model type**: Remote, Local (CPU/GPU/NPU)
 
-    ![Screenshot of AI Toolkit showing Model Catalog with various AI models available](./assets/aitk-model-catalog.png)
+    ![Screenshot of AI Toolkit showing Model Catalog with various AI models available](./aitk-model-catalog.png)
 
 ### Add a Model from GitHub
 
@@ -72,7 +72,7 @@ GitHub-hosted models are perfect for getting started as they're free to use with
 
 > **Tip**: AI Toolkit supports GitHub pay-as-you-go models, so you can continue working after passing free tier limits by enabling billing in your [GitHub settings](https://github.com/settings/billing).
 
-![Screenshot of the playground with gpt-5-nano model loaded](./assets/github-models.png)
+![Screenshot of the playground with gpt-5-nano model loaded](./github-models.png)
 
 ## Compare Models in the Playground
 
@@ -119,9 +119,9 @@ You are already in the **Model Playground,** with the selected model pre-loaded 
     Describe what's in the image, including colors of the objects and their positions.
     ```
 
-    You can download a demo image from [here](./assets/demo-living-room.png) and attach it in the chat.
+    You can download a demo image from [here](./demo-living-room.png) and attach it in the chat.
 
-![Screenshot of Playground with system prompt and example image prompt entered](./assets/gpt-5-nano-prompt.png)
+![Screenshot of Playground with system prompt and example image prompt entered](./gpt-5-nano-prompt.png)
 
 ## Compare Models Side-by-Side
 
@@ -136,7 +136,7 @@ Open GitHub Copilot Chat (`Cmd+Shift+I`) and ask for model recommendations:
 I'm building a customer support chatbot that needs to provide accurate information about our company and assist with product recommendations. Which AI models from the AI Toolkit Model Catalog would you recommend for this use case?
 ```
 
-![Screenshot showing model recommendations GitHub Copilot Agent ](./assets/ghcp-model-guidance.png)
+![Screenshot showing model recommendations GitHub Copilot Agent ](./ghcp-model-guidance.png)
 
 The GitHub Copilot Agent analyzes your use case, and uses the `Get AI Model Guidance` tool from the extension features to suggest the best model based on capabilities, cost, and performance characteristics.
 
@@ -147,7 +147,7 @@ You can then use the **Compare** feature to evaluate how the recommended or diff
 3. With the combined model's view, your prompt will be sent to both selected models simultaneously
 4. Review responses side-by-side to evaluate quality, style, and accuracy
 
-![Screenshot showing side-by-side comparison of two model responses](./assets/model-comparison.png)
+![Screenshot showing side-by-side comparison of two model responses](./model-comparison.png)
 
 ## Build an Agent with Agent Builder
 
@@ -162,7 +162,7 @@ Agent Builder streamlines the process of creating AI agents with custom instruct
 5. Enter a test prompt: *"Describe what's in the image, including colors of the objects and their positions."*
 6. Click **Send** to test your agent
 
-![Screenshot of Agent Builder with instructions and sample response](./assets/agent-builder-instructions.png)
+![Screenshot of Agent Builder with instructions and sample response](./agent-builder-instructions.png)
 
 ### Add Dynamic Variables
 
@@ -181,7 +181,7 @@ Variables allow you to personalize agent responses dynamically:
 3. Re-Enter a test prompt
 4. Click **Send** to test your agent
 
-![Screenshot of Agent Builder with instructions and variables configured](./assets/variables.png)
+![Screenshot of Agent Builder with instructions and variables configured](./variables.png)
 
 ## Integrate MCP Servers for Tool Use
 
@@ -195,13 +195,13 @@ AI Toolkit includes pre-configured MCP servers you can use immediately:
 2. Choose **aitk-playwright-example**
 3. Click on the **Edit Tool List** button to view the list of configured tools available through the Playwright MCP Server. The server tools are now available to your agent.
 
-  ![Screenshot of Agent Builder with instructions to use the Playwright MCP Server](./assets/playwright-mcp-server.png)
+  ![Screenshot of Agent Builder with instructions to use the Playwright MCP Server](./playwright-mcp-server.png)
 
 ### Connect to an Existing MCP Server
 
 You can connect to any MCP server that follows the protocol, following the steps in the GIF below:
 
-![GIF showing connecting to an existing zava-customer-sales-http MCP server](./assets/connect-to-existing-mcp-servers.gif)
+![GIF showing connecting to an existing zava-customer-sales-http MCP server](./connect-to-existing-mcp-servers.gif)
 
 ### Create a New MCP Server (TypeScript)
 
@@ -224,7 +224,7 @@ AI Toolkit generates a scaffold with:
 2. Select **Debug in Agent Builder** or press `F5`
 3. The server automatically connects to Agent Builder
 
-![Screenshot of Agent Builder with weather MCP server connected](./assets/weather-mcp-server.png)
+![Screenshot of Agent Builder with weather MCP server connected](./weather-mcp-server.png)
 
 ---
 
@@ -243,7 +243,7 @@ Test your agent against multiple inputs using the Bulk Run feature:
 5. Click **Generate** to create the dataset
 6. Check the **select all** box and click **Run Response** to execute all test cases
 
-![GIF of Evaluation tab with generated test dataset](./assets/evaluation.gif)
+![GIF of Evaluation tab with generated test dataset](./evaluation.gif)
 
 ### Manual Evaluation
 
@@ -271,7 +271,7 @@ Use built-in evaluators to automate quality assessment:
 3. Select a **judging model** for AI-assisted evaluation
 4. Click **Run Evaluation**
 
-![Screenshot of run evaluation prompt](./assets/ai-evaluation.png)
+![Screenshot of run evaluation prompt](./ai-evaluation.png)
 
 ### Use GitHub Copilot for Evaluator Recommendations
 
@@ -424,7 +424,7 @@ Make it simple, hackathon-ready, and immediately usable!
 
 Sample UI Output:
 
-![Screenshot of chat UI with user and agent messages](./assets/chat-ui-sample.png)
+![Screenshot of chat UI with user and agent messages](./chat-ui-sample.png)
 
 ### Customization Tips 💡
 
